@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XZ Prototyp</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    integrity="sha256-WLKGWSIJYerRN8tbNGtXWVYnUM5wMJTXD8eG4NtGcDM=" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/27c79143e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <h1 class="has-text-weight-bold">XZ Prototyp</h1>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/programm/">
+            Programm
+          </a>
+          <a class="navbar-item" href="/programm/spielrunden/">
+            Spielrunden
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Weitere Links
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/verein/">
+                Verein
+              </a>
+              <a class="navbar-item" href="/verein/kontakt/">
+                Kontakt
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">XZ Prototyp</h1>
+      <h2 class="subtitle">Gilde der Nacht</h2>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
+        quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+        ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      <div class="buttons">
+        <a href="/verein/kontakt" class="button is-link">
+          <span>
+            Kontakformular
+          </span>
+          <span class="icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </span>
+        </a>
+        <a href="/verein/vorstand/" class="button is-info">
+          <span>
+            Vorstand
+          </span>
+          <span class="icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Programm <span class="icon">
+          <a href="/programm/">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </span></h2>
+      <div class="columns">
+        <div class="column">
+          <article class="notification">
+            <h1 class="title is-5">Spieltreffen</h1>
+            <h2 class="subtitle is-6">33. Oktober 3022</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <div class="buttons is-right">
+              <a href="/programm/spieltreffen/">
+                <button class="button is-link is-small">
+                  <span>
+                    Mehr zum Spieltreffen
+                  </span>
+                  <span class="icon">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                  </span>
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="column">
+          <article class="notification is-danger">
+            <h1 class="title is-5">Luzerner Spieltage</h1>
+            <h2 class="subtitle is-6">34. November X001</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <div class="buttons is-right">
+              <a href="https://spieltage.ch/">
+                <button class="button is-white is-small">
+                  <span>
+                    Luzerner Spieltage (extern)
+                  </span>
+                  <span class="icon">
+                    <i class="far fa-external-link-alt"></i>
+                  </span>
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <!-- Main container -->
+      <div class="notification is-dark">
+
+        <nav class="level">
+          <!-- Left side -->
+          <div class="level-left">
+            <div class="level-item">
+              <p class="subtitle is-5 has-text-white has-text-weight-bold">
+                Interessiert an Sci-Fi?
+              </p>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="level-right">
+            <div class="level-item">
+              <a href="/programm/spielrunden/" class="button is-dark">
+                <span>Nein, zeig mir alle Spielrunden</span>
+                <span class="icon">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span></a>
+            </div>
+            <div class="level-item">
+              <a href="/programm/spielrunden/genres/sci-fi" class="button is-primary">
+                <span>
+                  Ja, bitte
+                </span>
+                <span class="icon">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
